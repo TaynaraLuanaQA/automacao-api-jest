@@ -1,0 +1,20 @@
+{
+  "name": "automacao-api-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "allure:report": "allure generate --clean",
+    "allure:serve": "allure serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-allure": "^0.1.3",
+    "jest-html-reporter": "^3.10.2",
+    "supertest": "^7.0.0"
+  }
+}
